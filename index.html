@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
+		
+		<h5 style="color:cadetblue; position:absolute; right:10px">Presentación Tutoría | San Antonio de Padua 1 | 2022-2023</h5>
 		<div class="reveal">
 			<div class="slides">
 				
@@ -22,6 +24,7 @@
 					<h3 class="animate__fadeInDown" data-delay="100">presentación tutorial</h3>
 					<h2 class="animate__fadeInDown" data-delay="150">1º Actividades Comerciales B</h2>
 					<h3 class="animate__fadeInDown" data-delay="200">2022-2023</h3>
+					<img class="animate__fadeInDown" data-delay="250" src="https://raw.githubusercontent.com/NandoVerdu/fpDual/fpdual2013/src/fpdual.svg" alt="">
 				</section>
 				<section >
 					<div class="r-hstack justify-center">
@@ -85,7 +88,7 @@
 				<section>
 					<h3 class="animate__bounceInLeft">Acceso padres a Web Familia</h3>
 					<div class="r-hstack justify-center">
-						<img src="media/web familia img.png" alt=""/img>
+						<img src="media/web familia img.png" width="105%" height="auto" alt=""/img>
 						<ul>
 							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Firma padres/tutores</h3></li>
 							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Mayores de edad pueden tener acceso independiente</h3></li>
@@ -113,22 +116,42 @@
 				<section>
 					<h3 class="animate__bounceInLeft">Calendario Escolar</h3>
 					<div class="r-hstack justify-center">
-						
-						
 						<ul>
 							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Convocatoria ordinaria y otra extraordinaria</h3></li>
-							
 						</ul>
 						<img src="media/calendario img.png" alt=""/img>
 				</div>
 				</section>
 
-				<section data-background-image="media/absentismo.svg">
+				<section>
+					<h3 class="animate__bounceInLeft">Cuenta usuario alumno</h3>
+					<div class="r-hstack">
+						<img src="media/login-password-svgrepo-com.svg" height="auto" width="60%" alt="">
+					<ul>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Cuenta usuario del centro, vinculada con gmail de google</h3></li>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Contraseña que hay que cambiar es 12345678</h3></li>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Contraseña Moodle individualizada asignada para Moodle con mismo usuario</h3></li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-background-image="media/absentismo.svg" data-background-position="right" data-background-opacity=.6 data-background-size="50%">
 					<h3 class="animate__bounceInLeft">Absentismo</h3>
 						<ul>
 					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Asistencia obligatoria</h3></li>
 					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Se informará del número máximo de faltas de asistencia no justificadas</h3></li>
 					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Superado éste, se pierde la evaluación continua</h3></li>
+						</ul>
+				</section>
+
+
+				<section data-background-image="media/devices.svg" data-background-position="center" data-background-opacity=.2 data-background-size="80%">
+					<h3 class="animate__bounceInLeft">Uso dispositivos electrónicos</h3>
+						<ul>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Únicamente con autorización del profesor</h3></li>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Penalización con falta leve</h3></li>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Supone retirada de dispositivo hasta finalizar el día</h3></li>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Cualquier acto de desobediencia o reincidencia supone falta grave</h3></li>
 						</ul>
 				</section>
 
@@ -146,6 +169,7 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
+				backgroundTransition: 'slide',
 				hash: true,
 				appearance: {
 					autoappear: true,
@@ -157,6 +181,11 @@
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Appearance ]
 			});
+		</script>
+		<script>
+			Reveal.on( 'slidechanged', event => {
+  				
+					} );
 		</script>
 	</body>
 </html>
