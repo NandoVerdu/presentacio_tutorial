@@ -31,16 +31,107 @@
 							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >fverdu@sanantonio1.org</h3></li>
 							
 						</ul>
-
 					</div>
 				</section>
+
 				<section>
+					<h3 class="animate__bounceInRight">Ficha del alumno</h3>
+					<div class="r-hstack justify-center">
 					<ul>
-						<li class="animate__bounceInLeft">Add it to any text element</li>
-						<li class="animate__bounceInLeft">Like list items, or headers.</li>
-						<li class="animate__bounceInLeft">It adds some attention.</li>
+						<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Rellenar datos</h3></li>
+						
 					</ul>
+					<img src="media/ficha alumno img.png" alt=""/img>
+				</div>
 				</section>
+
+				<section>
+					<h3 class="animate__bounceInLeft">Horario</h3>
+					<div class="r-hstack justify-center">
+					<img src="media/horario img.png" alt=""/img>
+					<ul>
+						<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >módulos, profesores, aulas</h3></li>
+						<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >1er recreo obligatorio salir</h3></li>
+						<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >respetuosos vecinos y medio ambiente</h3></li>
+					</ul>
+					
+				</div>
+				</section>
+
+				<section>
+					<h3 class="animate__bounceInLeft">Autorización salidas recreo menores de 18 años</h3>
+					<div class="r-hstack justify-center">
+					<img src="media/recreo menores img.png" alt=""/img>
+					<ul>
+						<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Entregar firmado mañana martes</h3></li>
+						
+					</ul>
+					
+				</div>
+				</section>
+
+				<section>
+					<h3 class="animate__bounceInLeft">Autorización comunicación a padres alumnos mayores de 18 años</h3>
+					<div class="r-hstack justify-center">
+						<ul>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Firma del alumno</h3></li>
+						</ul>
+					<img src="media/mayores informacion padres img.png" alt=""/img>
+					
+					
+				</div>
+				</section>
+
+				<section>
+					<h3 class="animate__bounceInLeft">Acceso padres a Web Familia</h3>
+					<div class="r-hstack justify-center">
+						<img src="media/web familia img.png" alt=""/img>
+						<ul>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Firma padres/tutores</h3></li>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Mayores de edad pueden tener acceso independiente</h3></li>
+						</ul>
+					
+				</div>
+				</section>
+				
+				<section>
+					<h3 class="animate__bounceInLeft">Libros</h3>
+					<div class="r-hstack justify-center">
+						<div class="r-vstack">
+						<img src="media/libros img.png" alt=""/img>
+						<img src="media/mapa img.png" alt=""/img>
+						</div>
+						<ul>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Reserva con depósito de 30€</h3></li>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Recogida a los 3 días</h3></li>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Presentar pago AMPA para descuento</h3></li>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Los libros de inglés no pueden ser de 2ª mano</h3></li>
+						</ul>
+				</div>
+				</section>
+
+				<section>
+					<h3 class="animate__bounceInLeft">Calendario Escolar</h3>
+					<div class="r-hstack justify-center">
+						
+						
+						<ul>
+							<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Convocatoria ordinaria y otra extraordinaria</h3></li>
+							
+						</ul>
+						<img src="media/calendario img.png" alt=""/img>
+				</div>
+				</section>
+
+				<section data-background-image="media/absentismo.svg">
+					<h3 class="animate__bounceInLeft">Absentismo</h3>
+						<ul>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Asistencia obligatoria</h3></li>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Se informará del número máximo de faltas de asistencia no justificadas</h3></li>
+					<li class="animate__bounceInLeft"><h3 style="text-transform: lowercase;" >Superado éste, se pierde la evaluación continua</h3></li>
+						</ul>
+				</section>
+
 			</div>
 		</div>
 
@@ -56,7 +147,13 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				appearance: {
+					autoappear: true,
+					autoelements:{
+						'img': 'animate__rubberBand'
+					}
 
+				},
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Appearance ]
 			});
